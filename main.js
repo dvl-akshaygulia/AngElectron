@@ -37,7 +37,7 @@ let contextMenuTemplate=[{
 let contextMenu=Menu.buildFromTemplate(contextMenuTemplate);
 
 function createWindow () {
-  win = new BrowserWindow({width: 800, height: 600,webPreferences: {
+  win = new BrowserWindow({width: 800, height: 600,icon:'C:/Users/guliaaks/Desktop/f33cc07fa0044261d61a6645a67ef496.jpg',webPreferences: {
     nodeIntegration: true,
     contextIsolation: false,
     enableRemoteModule: true
