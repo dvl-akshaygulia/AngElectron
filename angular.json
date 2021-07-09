@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngElectron"
+    }
+  },
+  "defaultProject": "AngElectron",
+  "cli": {
+    "analytics": false
+  }
 }
